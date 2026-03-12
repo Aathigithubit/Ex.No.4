@@ -1,6 +1,6 @@
 # Ex.No.4-EXP 4 Generate the Prompt and eveluate that for following prompt types - Comparative Analysis Prompt Experiential Perspective Prompt - Everyday Functioning Prompts - Universal Prompt Structures Prompt Refinements- Prompt Size Limitations.
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:  12-03-2026                                                                       
+### REGISTER NUMBER : 212223220001
 ### Aim: To write the prompt for the following prompt types and ompare that with differenet AI tools and evaluate that using any one evaluation method (eg. Rubrics). 1.Comparative Analysis Prompt 2. Experiential Perspective Prompt 3. Everyday Functioning Prompts 4. Universal Prompt Structures Prompt Refinements 5. Prompt Size Limitations design an AI 
 
 ### Explanation - Any one use case from Unit 5 and write the prompt for that with the unit 2 Prompt types given above.
@@ -45,45 +45,111 @@ Prompt Size Limitations:
 &  “Give me 50 examples of AI applications.”
 → Adjust for size: “Give me 10 AI applications at a time.”
 
-Scenario Prompt:
 
-"A customer is tracking an order they placed for a laptop but has encountered an issue where the tracking page does not show any updates. The customer says: 'I’ve been checking the tracking status for my laptop order, but it hasn’t updated in days. Can you check the status for me?'
+### Algorithm:
 
-### 2.Prompt Type: Comparative Analysis Prompt
-Prompt:
+## **Procedure**  
 
-“Compare how a rule-based chatbot and a machine-learning model would respond to this customer inquiry about an order status update.”
+### Step 1 – Define the Scenario & Use Case  
+- System aims to reduce manual tracking by automating equipment via IoT devices.  
+- Goal: predictive maintenance, improved energy use, and better efficiency.  
 
-Expected Output:
+***
 
-“A rule-based chatbot might provide a fixed response such as: ‘Please allow up to 72 hours for shipping updates. For further assistance, contact customer service.’ It is efficient but may not fully address the customer’s concerns. A machine-learning chatbot, however, would likely respond with something like: ‘I understand your frustration. I’ve checked your order status and see that the carrier hasn’t updated the tracking yet. Sometimes delays happen in the system. I’ve escalated this issue to the delivery team, and you’ll receive an update within 24 hours. Thank you for your patience.’ This is more personalized, showing empathy and taking proactive action.”
+### Step 2 – Identify Prompt Patterns for Each Design Aspect  
 
-Scenario Prompt:
+#### **1. Idea Generation Prompts** (Unit-2 type applied in industrial use case)  
+**Prompt:**  
+*"What features can be incorporated into the automation system to optimize production and reduce downtime?"*  
 
-"A customer has a general inquiry: 'How do I contact customer support if I need help with my order?'
+**Generated Ideas:**  
+- Install **sensors** for real-time performance monitoring.  
+- Provide **predictive maintenance alerts** to prevent failures.  
+- Automate **energy consumption optimization** (smart switching).  
+- Enable **cloud-based dashboards** for remote monitoring/control.  
 
-### 3.Prompt Type: Prompt Size Limitations
-Prompt:
+***
 
-“Generate a response in under 150 tokens to a customer asking how they can contact customer support for help with their order.”
+#### **2. Persona & Context Prompts**  
+**Prompt:**  
+*"What should the user interface and control system convey to the operators and managers?"*  
 
-Expected Output:
+**Generated Context:**  
+- UI must be **intuitive**, showing machine status, alerts & energy usage.  
+- System conveys **reliability and simplicity**, requiring **minimal operator training**.  
+- Provides **hierarchical views**: operators see machine states, managers see analytics and reports.  
 
-“You can contact customer support anytime by visiting our ‘Contact Us’ page. You can reach us via email, phone, or live chat. If your inquiry is order-related, make sure to have your order number ready for quicker assistance. We’re here to help 24/7!”
+***
 
-# Report:
-| **Prompt Technique**             | **Purpose**                                                | **Use Cases**                                   | **Benefits**                                                  |
-|----------------------------------|------------------------------------------------------------|-------------------------------------------------|---------------------------------------------------------------|
-| **Experiential Perspective Prompt** | Provides a more subjective or empathetic response based on experience | Troubleshooting, personalized support           | Builds empathy, helps create a more conversational tone, adds personalization to responses. |
-| **Comparative Analysis Prompt**   | Encourages a comparison between two or more entities to highlight differences | Order status, product feature comparisons, issue resolution | Provides a deeper understanding of options, contrasts and informs decisions effectively. |
-| **Prompt Size Limitations**       | Generates concise responses while respecting character/word limits | Short inquiries, quick answers, FAQs           | Ensures clarity and brevity, ideal for time-sensitive or constrained environments. |
+#### **3. Comparative Analysis Prompt**  
+**Objective:** Compare different automation strategies.  
+**Prompt:**  
+*"Compare predictive maintenance with traditional preventive maintenance in terms of cost, downtime, and efficiency."*  
+
+**Expected Output:**  
+- Predictive → Higher initial cost but significant long-term savings. Detect failures before breakdown → reduces unplanned downtime.  
+- Preventive → Scheduled maintenance even if unnecessary, leading to wasted resources.  
+
+***
+
+#### **4. Universal Prompt**  
+**Objective:** Use generalized prompts applicable across industries.  
+**Prompt:**  
+*"List core components of any intelligent automation system for real-time operations."*  
+
+**Expected Output:**  
+- IoT-enabled devices and sensors.  
+- Cloud/edge analytics engines.  
+- Control dashboards + mobile app.  
+- Alert/notification system.  
+
+***
+
+#### **5. Structured Prompt Refinements**  
+**Objective:** Break down responses for clarity.  
+**Prompt:**  
+*"Explain predictive maintenance in steps."*  
+
+**Refined Output:**  
+1. Sensors collect machine data (temperature, vibration, energy).  
+2. Data analyzed via ML models.  
+3. Early signs of wear/failure detected.  
+4. System alerts operator before breakdown.  
+
+***
+
+#### **6. Prompt Size Limitations**  
+**Objective:** Enforce concise outputs.  
+**Prompt:**  
+*"Describe predictive maintenance in under 40 words."*  
+
+
+### Prompt System Summary Table
+
+| **S.No** | **Prompt Type**            | **Objective**                                          | **Example Prompt**                                                                                      | **Expected Outcome**                                                        |
+|----------|----------------------------|--------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 1        | Idea Generation Prompt      | Generate feature ideas for system optimization         | “What features can be incorporated to optimize production and reduce downtime?”                        | Suggestions like real-time sensors, predictive alerts, energy optimization  |
+| 2        | Persona and Context Prompt  | Define UI/UX traits and system messaging tone          | “What should the user interface convey to operators and managers?”                                    | Intuitive, reliable, real-time info with simple usability                   |
+| 3        | Comparative Analysis Prompt | Compare solutions or strategies                         | “Compare predictive maintenance with preventive maintenance in cost, downtime, and efficiency.”       | Detailed pros and cons for maintenance strategies                           |
+| 4        | Universal Prompt            | Identify general system components applicable broadly  | “List core components of intelligent automation systems for real-time operation.”                      | Components such as IoT sensors, analytics engines, dashboards, alerts       |
+| 5        | Structured Prompt Refinement| Break down complex explanations into clear steps       | “Explain predictive maintenance in steps.”                                                           | Clear steps: data collection, analysis, early detection, alerting           |
+| 6        | Prompt Size Limitation      | Enforce brevity and clarity                             | “Describe predictive maintenance in under 40 words.”                                                  | Concise, jargon-free explanation                                           |
+| 7        | Reflective Prompting        | Clarify user queries before responding                  | “You want to know how predictive maintenance works, correct? Here’s a simple rundown...”               | Ensures clarity, reduces misunderstandings                                  |
+
+---
+
+***
+
+## **Result**  
+- Different **prompt patterns** (Comparative, Universal, Structured Refinement, Prompt Limits, along with Idea Generation & Persona Prompts) were successfully tested.  
+- The system provided **useful, accurate, and context-rich responses** for the manufacturing automation use case.  
+- **Thus, the prompts were executed successfully.**  
+
+***
 
 
 
 
-![image](https://github.com/user-attachments/assets/80a837d5-8ed6-4da9-b825-cee5f2903d10)
-![image](https://github.com/user-attachments/assets/febc17bf-bdab-4d3b-910e-f3ae29f21bcd)
-![image](https://github.com/user-attachments/assets/afa4d59a-3503-4d42-a8fa-d64f31329f73)
 
 
 
